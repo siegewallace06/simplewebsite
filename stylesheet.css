@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+.container {
+  width : 1170px;
+  padding : 0 15px;
+  margin : 0 auto;
+}
+
+header {
+  height : 65px;
+  width : 100%;
+  background-color rgba(31, 77, 223, 0.73):
+  position : fixed;
+  top : 0;
+  z-index : 10;
+}
+
+.header-logo {
+  float : left;
+  font-size : 36px;
+  padding : 20px 40px;
+}
