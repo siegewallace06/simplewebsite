@@ -1,3 +1,28 @@
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
 body {
   margin: 0;
   font-family: "Quicksand";
@@ -72,7 +97,7 @@ footer {
 .list-bottom li {
   font-size: 12px;
   padding: 20px 20px;
-  color: #98dfd6;
+  color: #65daca;
   float: right;
   cursor: pointer;
 }
