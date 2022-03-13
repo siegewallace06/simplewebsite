@@ -26,3 +26,29 @@ header {
   width : 150px;
   margin-top : 20px;
 }
+
+/* TOP WRAPPER */
+
+.top-wrapper {
+  text-align: center;
+  color: #1a665c;
+  background-color: #30363d;
+  padding: 120px 0 30px 0;
+  width: auto;
+}
+
+.top-title {
+  opacity: 0.8;
+}
+
+.top-title h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 3rem;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+}
+
+.top-title p {
+  margin-bottom: 4px;
+  color: white;
+}
