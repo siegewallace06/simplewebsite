@@ -4,27 +4,27 @@ body {
 }
 
 .container {
-  width : 1170px;
-  padding : 0 15px;
-  margin : 0 auto;
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 header {
-  height : 65px;
-  width : 100%;
-  background-color : rgba(37, 49, 84, 0.73);
-  position : fixed;
-  top : 0;
-  z-index : 10;
+  height: 65px;
+  width: 100%;
+  background-color: rgba(37, 49, 84, 0.73);
+  position: fixed;
+  top: 0;
+  z-index: 10;
 }
 
 .header-logo {
-  float : left;
+  float: left;
 }
 
 .logo {
-  width : 150px;
-  margin-top : 20px;
+  width: 150px;
+  margin-top: 20px;
 }
 
 /* TOP WRAPPER */
@@ -51,4 +51,27 @@ header {
 .top-title p {
   margin-bottom: 4px;
   color: white;
+}
+
+footer {
+  padding: 0 16px;
+  height: 80px;
+  background-color: #30363d;
+  padding-top: 10px;
+}
+
+.position-list-style {
+  border-top: 1px solid #fff;
+}
+
+.list-bottom {
+  margin-bottom: 0;
+}
+
+.list-bottom li {
+  font-size: 12px;
+  padding: 20px 20px;
+  color: #98dfd6;
+  float: right;
+  cursor: pointer;
 }
