@@ -34,23 +34,89 @@ body {
   margin: 0 auto;
 }
 
-header {
-  height: 65px;
-  width: 100%;
-  background-color: rgba(37, 49, 84, 0.73);
-  position: fixed;
-  top: 0;
+
+/* MULAI CSS HEADER */
+.container{
+  width: 1170px;
+  text-align: center;
+  margin: auto;
+}
+
+header{
+  top :0;
+  left: 0;
   z-index: 10;
+  position: fixed;
+  font-family: "sansserif";
+  width: 100%;
+  height: 65px;
+  background-color: rgba(255, 255, 255, 0.8);
+  opacity: 1;
 }
 
-.header-logo {
+.header-left {
   float: left;
+  margin-top: 8px;
+  padding: 2px 20px;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+.header-left:hover{
+  background-color: rgba(149, 175, 192, 1);
+  transition: 0.5s;
+}
+.header-left img:hover {
 }
 
-.logo {
-  width: 150px;
-  margin-top: 20px;
+.header-right{
+  float: right;
+  width: 60%;
 }
+.list{
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+.lista {
+  border-radius: 15px;
+  width: 80%;
+  margin: auto;
+  transition: 0.8s;
+  
+  background-color: rgba(149, 175, 192, 0.5);
+  color: white;
+  font-size: 15px;
+  
+  margin-top: 12.5px;
+  height: 40px;
+  line-height: 40px;
+  
+}
+.lista:hover {
+  width: 95%;
+  margin: auto;
+  letter-spacing: 0.2em;
+  transition: 1s;
+  
+  background-color: rgba(149, 175, 192, 1);
+  border: 3px solid white;
+  font-weight: bold;
+  font-size: 18px;
+  
+  margin-top: 7px;
+  height: 45px;
+  line-height: 45px;
+}
+.lista:active{
+  transition: 0.1s;
+  margin: auto;
+  margin-top: 7px;
+  color: black;
+  background-color: rgba(255, 255, 255, 1);
+  border-color: black;
+}
+/* SELESAI CSS HEADER */
+
 
 /* TOP WRAPPER */
 
