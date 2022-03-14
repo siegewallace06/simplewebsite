@@ -37,14 +37,14 @@ body {
 
 
 /* MULAI CSS HEADER */
-.container{
+.container {
   width: 1170px;
   text-align: center;
   margin: auto;
 }
 
-header{
-  top :0;
+header {
+  top: 0;
   left: 0;
   z-index: 10;
   position: fixed;
@@ -55,7 +55,7 @@ header{
   opacity: 1;
 }
 
-.header{
+.header {
   width: 100%;
   list-style: none;
   position: relative;
@@ -68,7 +68,8 @@ header{
   border-radius: 15px;
   transition: 0.5s;
 }
-.header-left:hover{
+
+.header-left:hover {
   cursor: pointer;
   background-color: rgba(149, 175, 192, 1);
   transition: 0.5s;
@@ -78,42 +79,63 @@ header{
   float: left;
   width: 20%;
 }
-.header-logo2-animation img{
-  border-radius: 20px; /*width: 40x;*/
+
+.header-logo2-animation img {
+  border-radius: 20px;
+  /*width: 40x;*/
   margin-top: 12.5px;
   animation-timing-function: ease-in-out;
   animation: la 5s infinite;
 }
-.header-logo2-animation img:hover{
+
+.header-logo2-animation img:hover {
   cursor: pointer;
 }
-.header-logo2-animation img:active{
+
+.header-logo2-animation img:active {
   cursor: pointer;
   position: absolute;
   width: 30%;
 }
+
 @keyframes la {
-  0% { transform: translate(-180%, 0) scaleX(-1); }
-  25% { transform: translate(220%, 0) scaleX(-1); }
-  50% { transform: translate(220%, 0); }
-  75% { transform: translate(-180%, 0); }
-  100% { transform: translate(-180%, 0) scaleX(-1); }
+  0% {
+    transform: translate(-180%, 0) scaleX(-1);
+  }
+
+  25% {
+    transform: translate(220%, 0) scaleX(-1);
+  }
+
+  50% {
+    transform: translate(220%, 0);
+  }
+
+  75% {
+    transform: translate(-180%, 0);
+  }
+
+  100% {
+    transform: translate(-180%, 0) scaleX(-1);
+  }
 }
 
-.header-right{
+.header-right {
   float: right;
   width: 60%;
 }
 
-.header-right-lists{
+.header-right-lists {
   width: 100%;
   background-color: green;
 }
-.list{
+
+.list {
   float: left;
   width: 20%;
   text-align: center;
 }
+
 .lista {
   border-radius: 15px;
   width: 80%;
@@ -126,6 +148,7 @@ header{
   height: 40px;
   line-height: 40px;
 }
+
 .lista:hover {
   cursor: pointer;
   width: 95%;
@@ -140,7 +163,8 @@ header{
   height: 45px;
   line-height: 45px;
 }
-.lista:active{
+
+.lista:active {
   transition: 0.2s;
   margin: auto;
   margin-top: 7px;
@@ -148,6 +172,7 @@ header{
   background-color: rgba(255, 255, 255, 1);
   border-color: black;
 }
+
 /* SELESAI CSS HEADER */
 
 
@@ -281,7 +306,7 @@ header{
   padding: 15px 40px;
   background-color: #98dfd6;
   color: #333333;
-  
+
 }
 
 .btn {
@@ -305,31 +330,63 @@ header{
 
 
 /* FOOTER */
+
 footer {
-  padding: 0 16px;
-  height: 85px;
-
-  background-color: #30363d;
-  padding-top: 10px;
+  position: relative;
+  background: #3586ff;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.position-list-style {
-  border-top: 1px solid #fff;
+footer .sosial_icon,
+footer .menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
 }
 
-.socialmedia {
-  float: right;
-  padding: 4px 1px;
+footer .sosial_icon li,
+footer .menu li {
+  list-style: none;
 }
 
-.list-bottom {
-  margin-bottom: 0;
+footer .sosial_icon li a {
+  font-size: 2em;
+  /* list-style: 2em; */
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+
 }
 
-.list-bottom li {
-  float: right;
-  font-size: 12px;
-  padding: 15px 15px;
-  color: #65daca;
-  cursor: pointer;
+footer .sosial_icon li a:hover {
+  transform: translateY(-10px)
+}
+
+footer .menu li a {
+  font-size: 0.8 em;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  text-decoration: none;
+  opacity: 0.75;
+
+}
+
+footer .menu li a:hover {
+  opacity: 1;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 1em;
 }
