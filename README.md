@@ -1,7 +1,7 @@
 # simplewebsite
 A Simple Website Created for completing HTML &amp; CSS course assignment
 
-Created by :
+Created by : <br>
 Kristiadi Prabowo - Header Section <br>
 Farid Muhammad Eryanto - Top Wrapper <br>
 Irfan Nurrahmat - Content Wrapper <br>
