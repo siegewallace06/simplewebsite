@@ -233,6 +233,43 @@ header{
   margin-top: 30px;
 }
 
+/*----------BOTTOM WRAPPER------*/
+.bottom-wrapper {
+  height: 150px;
+  text-align: center;
+  background-color: #30363d;
+  margin-top: 0;
+  padding-top: 30px;
+}
+
+.more {
+  border: 1px solid #333333;
+  padding: 15px 40px;
+  background-color: #98dfd6;
+  color: #333333;
+  
+}
+
+.btn {
+  cursor: pointer;
+  opacity: 0.6;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.bottom {
+  margin: 30px 60px;
+}
+
+.bottom p {
+  padding-top: 30px;
+  color: white;
+}
+
+
 /* FOOTER */
 footer {
   padding: 0 16px;
