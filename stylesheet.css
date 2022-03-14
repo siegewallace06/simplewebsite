@@ -35,6 +35,7 @@ body {
 }
 
 
+
 /* MULAI CSS HEADER */
 .container{
   width: 1170px;
@@ -54,23 +55,59 @@ header{
   opacity: 1;
 }
 
+.header{
+  width: 100%;
+  list-style: none;
+  position: relative;
+}
+
 .header-left {
   float: left;
+  width: 20%;
   margin-top: 8px;
-  padding: 2px 20px;
   border-radius: 15px;
   transition: 0.5s;
 }
 .header-left:hover{
+  cursor: pointer;
   background-color: rgba(149, 175, 192, 1);
   transition: 0.5s;
 }
-.header-left img:hover {
+
+.header-mid {
+  float: left;
+  width: 20%;
+}
+.header-logo2-animation img{
+  border-radius: 20px; /*width: 40x;*/
+  margin-top: 12.5px;
+  animation-timing-function: ease-in-out;
+  animation: la 5s infinite;
+}
+.header-logo2-animation img:hover{
+  cursor: pointer;
+}
+.header-logo2-animation img:active{
+  cursor: pointer;
+  position: absolute;
+  width: 30%;
+}
+@keyframes la {
+  0% { transform: translate(-180%, 0) scaleX(-1); }
+  25% { transform: translate(220%, 0) scaleX(-1); }
+  50% { transform: translate(220%, 0); }
+  75% { transform: translate(-180%, 0); }
+  100% { transform: translate(-180%, 0) scaleX(-1); }
 }
 
 .header-right{
   float: right;
   width: 60%;
+}
+
+.header-right-lists{
+  width: 100%;
+  background-color: green;
 }
 .list{
   float: left;
@@ -82,33 +119,29 @@ header{
   width: 80%;
   margin: auto;
   transition: 0.8s;
-  
   background-color: rgba(149, 175, 192, 0.5);
   color: white;
   font-size: 15px;
-  
   margin-top: 12.5px;
   height: 40px;
   line-height: 40px;
-  
 }
 .lista:hover {
+  cursor: pointer;
   width: 95%;
   margin: auto;
   letter-spacing: 0.2em;
-  transition: 1s;
-  
+  transition: 0.5s;
   background-color: rgba(149, 175, 192, 1);
   border: 3px solid white;
   font-weight: bold;
   font-size: 18px;
-  
   margin-top: 7px;
   height: 45px;
   line-height: 45px;
 }
 .lista:active{
-  transition: 0.1s;
+  transition: 0.2s;
   margin: auto;
   margin-top: 7px;
   color: black;
@@ -116,6 +149,7 @@ header{
   border-color: black;
 }
 /* SELESAI CSS HEADER */
+
 
 
 /* TOP WRAPPER */
