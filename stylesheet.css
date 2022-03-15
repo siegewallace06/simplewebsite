@@ -335,20 +335,30 @@ header {
 footer {
   position: relative;
   background: #3586ff;
-  min-height: 210px;
+  min-height: 200px;
   padding: 10px 50px;
+  padding-bottom: 0%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.sosial_icon,
-.menu {
+.sosial_icon {
+  padding-top: 10px;
   position: relative;
   display: flex;
   justify-content: center;
   margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+  margin-top: 0px;
   flex-wrap: wrap;
 }
 
@@ -360,7 +370,6 @@ footer {
 .sosial_icon li a {
   padding-top: 20px;
   font-size: 2em;
-  /* list-style: 2em; */
   color: #fff;
   margin: 0 10px;
   display: inline-block;
